@@ -26,6 +26,7 @@ form{
   border-radius: 5px;
   font-size: 18px;
   color: #333;
+  margin-right: 20px;
 }
 #s-button{
   padding: 10px 20px;
@@ -47,6 +48,7 @@ form{
   justify-content: space-between;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 10px;
 }
 .search-result{
   margin-bottom: 60px;
@@ -90,4 +92,21 @@ form{
 #show-more-b{
   background-color:#0077b5 ;
 
+}
+@media screen and (max-width: 768px) {
+  .search-result{
+    width: 45%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .search-result{
+    width: 100%;
+  }
+  form{
+    flex-direction: column;
+  }
+  #search-id{
+    margin-bottom: 20px;
+    width: 80%;
+  }
 }

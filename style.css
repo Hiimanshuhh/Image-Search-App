@@ -87,6 +87,7 @@ form{
   margin: 20px auto;
   cursor:pointer;
   transition: background-color 0.3 ease-in-out;
+  display: none;
 }
 
 #show-more-b{

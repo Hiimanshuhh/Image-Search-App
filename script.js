@@ -1,5 +1,5 @@
 const accessKey = "2DixUzXIkx_wxwHg_yId4Lj2Af4OACRXVzyhw6pDUb0";
-
+//declaring variables
 const formEl = document.querySelector('form')
 const inputEl = document.getElementById('search-id')
 const searchResultEl = document.querySelector(".search-results")

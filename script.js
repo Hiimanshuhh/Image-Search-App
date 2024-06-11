@@ -48,7 +48,7 @@ async function searchImages(){
 }
 
 
-
+//Submit and Show More Events
 formEl.addEventListener("submit",(event)=>{
   event.preventDefault();
   searchImages();

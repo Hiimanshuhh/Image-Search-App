@@ -20,7 +20,7 @@ async function searchImages(){
 
 
   const results = data.results;
-
+//Generating Images
   results.map((result) =>{
     const imageWrapper = document.createElement("div");
     imageWrapper.classList.add("search-result");

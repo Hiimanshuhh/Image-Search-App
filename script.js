@@ -7,7 +7,7 @@ const showMoreEl = document.getElementById("show-more-b")
 
 let inputData = "";
 let page = 1;
-
+//fetching API
 async function searchImages(){
   inputData =  inputEl.value;
   const url = `https://api.unsplash.com/search/photos?page=${page}&query=${inputData}&client_id=${accessKey}`;
